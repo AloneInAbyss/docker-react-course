@@ -1,6 +1,5 @@
 language: node_js
 os: linux
-dist: alpine
 
 services:
   - docker       # install a copy of docker
