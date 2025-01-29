@@ -1,4 +1,6 @@
-sudo: required   # gives super user level permissions
+language: node_js
+os: linux
+dist: alpine
 
 services:
   - docker       # install a copy of docker
@@ -14,7 +16,7 @@ deploy:
   region: "sa-east-1"
   app: "docker-react"
   env: "Docker-react-env"
-  bucket_name: "elasticbeanstalk-sa-east-1-421289294484"
+  bucket: "elasticbeanstalk-sa-east-1-421289294484"
   bucket_path: "docker-react"
   on:
     branch: master
