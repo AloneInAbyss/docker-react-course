@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/AloneInAbyss/docker-react-course.svg?token=9qYytjVqJpZJ8b5Z6KXK&branch=master)](https://app.travis-ci.com/AloneInAbyss/docker-react-course)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
